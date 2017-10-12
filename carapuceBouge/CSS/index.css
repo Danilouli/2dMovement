@@ -1,0 +1,32 @@
+html,body { 
+height: 100%;
+margin: 0px;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+.overworld { 
+position: relative;
+height: 100%;
+width: 100%;
+background-color: green;
+}
+
+.character { 
+position: absolute;
+height: 6%;
+width: 3%;
+background-image: url("carapuce.gif");
+background-position: 0% 0%;
+background-repeat: no-repeat;
+background-size: 200% 200%;
+}
+
+.rock { 
+position:  absolute;
+height: 20%;
+width: 20%;
+background-color: brown;
+top: 30%;
+left: 30%;
+}
